@@ -1,8 +1,6 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.0.2"
-
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.0.alpha2"
 
@@ -16,7 +14,7 @@ gem "puma", "~> 5.0"
 gem "jsbundling-rails", "~> 0.1.0"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails", ">= 0.7.11"
+gem "turbo-rails", ">= 0.9.0"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails", ">= 0.4.0"
