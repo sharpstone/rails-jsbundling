@@ -41,6 +41,12 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 gem "rexml"
+gem "base64"
+gem "benchmark"
+gem "bigdecimal"
+gem "logger"
+gem "mutex_m"
+gem "ostruct"
 
 # Use Sass to process CSS
 # gem "sassc-rails"

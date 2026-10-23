@@ -68,6 +68,9 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    base64 (0.3.0)
+    benchmark (0.5.0)
+    bigdecimal (4.1.3)
     bindex (0.8.1)
     bootsnap (1.10.3)
       msgpack (~> 1.2)
@@ -100,6 +103,7 @@ GEM
       activesupport (>= 5.0.0)
     jsbundling-rails (1.0.0)
       railties (>= 6.0.0)
+    logger (1.7.0)
     loofah (2.18.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -111,6 +115,7 @@ GEM
     mini_mime (1.1.2)
     minitest (5.16.2)
     msgpack (1.7.5)
+    mutex_m (0.3.0)
     net-imap (0.2.3)
       digest
       net-protocol
@@ -132,6 +137,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.2-x86_64-linux-gnu)
       racc (~> 1.4)
+    ostruct (0.6.3)
     pg (1.5.9)
     public_suffix (4.0.7)
     puma (5.5.2)
@@ -214,11 +220,17 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  base64
+  benchmark
+  bigdecimal
   bootsnap
   capybara
   debug
   jbuilder
   jsbundling-rails
+  logger
+  mutex_m
+  ostruct
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.3.1)
